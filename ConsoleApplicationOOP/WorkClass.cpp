@@ -8,7 +8,13 @@ void WorkClass::startWork() {
     GoodBasic* universalPointer02 = new Freezer(1, 234, "Freezer Samsung", "Good thing...", 2, 34);
     GoodBasic* universalPointer03 = new Software(1, 234, "Soft FOR Samsung", "Very Good thing...", 2, 34);
 
+<<<<<<< Updated upstream
     static_cast<GoodBasic*>(universalPointer01)->toString();
     static_cast<GoodBasic*>(universalPointer02)->toString();
     static_cast<GoodBasic*>(universalPointer03)->toString();
+=======
+	GoodBasic* universalPointer03 = new Software;
+	static_cast<GoodBasic*>(universalPointer03)->toString();
+
+>>>>>>> Stashed changes
 }
